@@ -1,0 +1,131 @@
+body{
+    width:100%;
+    margin:0%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image:url(imagens/fundoform.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #000;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    overflow: auto;
+    position: absolute;
+    color:#FFB22E;
+}
+.formulario{
+    margin: auto;
+    width: 60%;
+}
+#tituloprincipal{
+    text-align: center;
+    margin-bottom: 2%;
+    font-family: 'Bebas Neue', cursiva;
+    font-size: 25px;
+}
+.grupodedados{
+    border-radius: 7px;
+    font-family: 'Montserrat Alternates', sem serifa;
+}
+.titulo{
+    font-size: 15px;
+    display: block;
+}
+.bloco{
+    margin-bottom: 10px;
+    width: 25%;
+    margin-left: 3%;
+}
+.caixa{
+    width: 100%;
+    display: block;
+    border-radius: 4px;
+    border: 1px solid #CFD0DF;
+    box-shadow: 2px 2px 2px #797A8C;
+    padding: 5px;
+}
+.caixa:focus{
+    background-color: #CFD0DF;
+}
+.botao{
+    border-radius: 4px;
+    border:#131A60;
+    background-color: #131A60;
+    color: #FFB22E;
+    padding: 8px;
+    margin: 2%;
+    margin-top: 1%;
+}
+.botao:hover{
+    background-color: #FFB22E;
+    color: #01093F;
+}
+#rg{
+    width:15%;
+    position: absolute;
+    left:47%;
+    top:25%;
+}
+#cpf{
+    width:15%;
+    position: absolute;
+    left:47%;
+    top: 35%;
+}
+#email{
+    width:15%;
+    position: absolute;
+    left:47%;
+    top: 45%;
+}
+#numcelular{
+    width:12%;
+    position: absolute;
+    left:47%;
+    top:55%;
+}
+#datadenascimento{
+    width:14%;
+}
+#numendereço{
+    width:8%;
+}
+#city{
+    font-family: 'Montserrat Alternates', sem serifa;
+}
+#tipodepet{
+    float: right;
+    margin-right: 8%;
+}
+#tipodepet input{
+    border-radius: 4px;
+    border: 1px solid #CFD0DF;
+    box-shadow: 2px 2px 2px #797A8C;
+    padding: 5px;
+}
+#tituloporte{
+    font-size: 18px;
+}
+#titulosexo{
+    margin-top: 5px;
+    margin-bottom: 1px;
+}
+#opçõessexo{
+    margin-bottom: 1%;
+}
+#termosecondicoes{
+    float:right;
+    margin-right: 8%;
+}
+.link{
+    float:right;
+    margin-right: 4%;
+    margin-bottom: 4%;
+    font-size: 15px;
+    font-family: 'Montserrat Alternates', sem serifa;
+}
+.link li{
+    list-style-type: none;
+}

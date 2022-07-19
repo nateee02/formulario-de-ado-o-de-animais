@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta name = "viewport" content = "width=device-width, initial-scale=1">
+        <meta charset= "utf-8">
+        <link rel = "stylesheet" type = "text/css" href = "Desejo_adotar_formulário.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap" rel="stylesheet">
+        <title>Desejo adotar</title>
+    </head>
+    <body>
+        <h2 id="tituloprincipal">Preencha o formulário para que possamos enviar os pets diponiveis para receber um novo lar!</h2>
+        <form class="formulario" action = " " method ="get">
+            <fieldset class="grupodedados">
+                <legend class="sessaodados">
+                    Dados do adotador
+                </legend>
+
+                <div class="bloco">
+                    <label class ="titulo">Nome completo:</label>
+                    <input class="caixa"  required type="text" name="nome" placeholder="Obrigatório*">
+                </div>
+
+                <div class="bloco" id="datadenascimento">
+                    <label class ="titulo">Data de nascimento:</label>
+                    <input class="caixa" type="date" name="datadenascimento">
+                </div>
+
+                <div class="bloco">
+                    <label class="titulo">Profissão:</label>
+                    <input class="caixa" type="text" name="profissão">
+                </div>
+                
+                <div class="bloco">
+                        <label class="titulo">Endereço:</label>
+                    <div>    
+                        <label class="titulo">Rua:</label>
+                            <input  class="caixa" required type="text" name="rua">
+                    </div>
+                </div>
+
+                <div class="bloco">
+                    <label class="titulo">Cidade:</label>
+                    <select id="city" class="caixa" name="cidades">
+                        <option value=" ">Selecione sua cidade</option>
+                        <option>Santo Ângelo</option>
+                        <option>Porto Alegre</option>
+                        <option>Alegrete</option>
+                        <option>Esteio</option>
+                        <option>Canela</option>
+                        <option>Guaíba</option>
+                        <option>Caxias do sul</option>
+                        <option>Gramado</option>
+                        <option>Torres</option>
+                        <option>Novo Hamburgo</option>
+                        <option>Guaporé</option>
+                    </select>
+                </div>
+                <div class="bloco" id="numendereço">
+                    <label class="titulo">Número:</label>
+                        <input class="caixa" required type="number" name="numero">
+                </div>
+                    <div class="bloco" id="rg">
+                        <label class="titulo">RG:</label>
+                            <input class="caixa" required type="text" name="rg" placeholder="Digite seu RG">
+                    </div>
+
+                    <div class="bloco" id="cpf">
+                        <label class="titulo">CPF:</label>
+                            <input class="caixa" required type="text" name="cpf" placeholder="Digite seu CPF">
+                    </div>
+
+                    <div class="bloco" id="email">
+                        <label class = "titulo">E-mail:</label>
+                        <input class="caixa" required type="email" name="email" placeholder="Obrigatório*">
+                    </div>
+
+                    <div class="bloco" id="numcelular">
+                        <label class="titulo">Nº celular:</label>
+                        <input class="caixa" type="tel" name="contato">
+                    </div>
+             </fieldset>
+            <fieldset class="grupodedados">
+                    <legend>Informações do pet</legend>
+
+                    <div class="bloco" id="tipodepet">
+                            <label>Qual o tipo do amigo pet a ser adotado?</label>
+                            <input list="especie" name="especie">
+
+                            <datalist id="especie">
+                                <option>Cachorro</option>
+                                <option>Gato</option>
+                                <option>Ave</option>
+                                <option>Peixe</option>
+                                <option>Coelho</option>
+                                <option>Tartaruga</option>
+                                <option>Rato</option>
+                            </datalist>
+                    </div>
+
+                    <div id="tituloporte" class="bloco">
+                        <label>Porte do pet</label>
+                    </div>
+                    <div>
+                        <label>
+                            <input type="radio" name="Porte">
+                            Pequeno
+                        </label>
+                        <label>
+                            <input type="radio" name="porte">
+                            Médio
+                        </label>
+                        <label>
+                            <input type="radio" name="porte">
+                            Grande
+                        </label>
+                        <label>
+                            <input type="radio" name="porte">
+                            Não possuo preferência
+                        </label>
+                    </div>
+
+                    <div id="titulosexo"class="bloco">
+                        <label>Sexo</label>
+                    </div>
+
+                    <div id="opçõessexo">
+                        <label>
+                            <input type="radio" name="genero">
+                            Macho
+                        </label>
+                        <label>
+                            <input type="radio" name="genero">
+                            Fêmea
+                        </label>
+                        <label>
+                            <input type="radio" name="genero">
+                            Não possuo preferência
+                        </label>
+                    </div>
+
+                    <div id="termosecondicoes" class="bloco">
+                        <label>
+                        <input type="checkbox" name="termosecondições">
+                        Eu li e aceito os <a href="termos e condições.html">termos e condições</a> da adoção de animais
+                        </label>
+                    </div>
+            </fieldset>
+                <button class="botao">ENVIAR</button>
+        </form>
+        <div class="link">
+            <ul>
+                <li>voltar ao <a href="pagina_principal.html">home</a></li>
+            </ul>
+        </div>
+    </body>
+</html>
